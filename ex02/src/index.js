@@ -3,7 +3,7 @@ function myCounter(n) {
     if (n < 1) {
         return [];
     } else {
-        var countArr = myCounter(n - 1);
+        const countArr = myCounter(n - 1);
         countArr.unshift(n);
         return countArr;
     }
